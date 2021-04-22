@@ -6,9 +6,17 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 } */
-#more-info-btn {
-  padding: 5px;
+body {
+  background-color: rgb(191, 238, 240);
+  font-family: sans-serif;
 }
+p {
+  font-size: x-large;
+}
+/* body {
+  background-repeat: no-repeat;
+} */
+
 #more-info {
   display: none;
 }

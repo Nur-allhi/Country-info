@@ -12,32 +12,37 @@
 </head>
 
 <body class="container">
+
     <section class="mt-5">
         <h3 class="text-center">The Country information you want</h3>
     </section>
-    <section class="d-flex justify-content-center" s>
+    <section class="d-flex justify-content-around" s>
         <div class="mt-5">
             <div class="input-group mb-3">
                 <input id="country-input" class="form-control-lg" type="text" class="form-control"
-                    placeholder="Recipient's username" aria-label="Recipient's username"
-                    aria-describedby="button-addon2">
-                <button class="btn btn-outline-secondary" type="button" id="sarch-btn">Sarch</button>
+                    placeholder="Valid Country" aria-label="Valid Country" aria-describedby="button-addon2">
+                <button class="btn btn-success" type="button" id="sarch-btn">Sarch</button>
             </div>
             <div>
-                <p>Name: <span>Bangladesh</span></p>
-                <p>Capital: <span>Dhaka</span></p>
-                <p>Population: <span>18000000</span></p>
+                <p>Name: <span id="country-name">Bangladesh</span></p>
+                <p>Passport-Name: <span id="pass-name">People's Republic of Bangladesh</span></p>
+                <p>Capital: <span id="capital">Dhaka</span></p>
+                <p>Population: <span id="population">18000000</span></p>
                 <button id="more-info-btn" type="button" class="btn btn-info mt-2">More
                     Info</button>
             </div>
-            <div class="mt-3" id="more-info">
-                <p>Region: <span>Asia</span></p>
-                <p>Currencie: <span>TAKA</span></p>
-                <p>Area: <span>155570 </span>&#13218;</p>
+            <div class="mt-3 mb-3" id="more-info">
+                <div>
+                    <p>Region: <span id="region">Asia</span></p>
+                    <p>Language: <span id="language">Bengali</span></p>
+                    <p>Area: <span id="area">155570 </span> &#13218;</p>
+                    <p>Timezone: <span id="timezone">UTC+06:00</span></p>
+                    <p>Currencie: <span id="currencie">BDT</span></p>
+                </div>
             </div>
         </div>
     </section>
-    <section></section>
+
     <script src="app.js"></script>
 </body>
 
